@@ -2,6 +2,7 @@ use std::{
     env,
     fs::File,
     io::{self, Read},
+    process,
 };
 
 use image::{ImageBuffer, Rgb};
@@ -25,6 +26,7 @@ Examples :
     let args: Vec<_> = env::args().collect();
     if args.len() <= 1 {
         println!("{}", HELP);
+        process::exit(0);
     }
 
     let mut output_file: &str = "output.png";
@@ -38,6 +40,11 @@ Examples :
     let mut file_input_path = String::new();
 
     for i in 1..args.len() {
+        if args[i] == "-h" || args[i] == "--help" {
+            println!("{}", HELP);
+            process::exit(0);
+        }
+
         if file_specified {
             use_file_input = true;
             file_input_path = args[i].clone();
