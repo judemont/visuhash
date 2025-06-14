@@ -12,7 +12,7 @@ Visuhash uses sha256 to create a unique visual representation of a text or file.
 
 <img height=100 src='https://github.com/user-attachments/assets/155ff20f-2ba1-4bce-a00a-e97be3051b94' />
 
-**VisuHash of my ADN.**
+**VisuHash of my DNA.**
 
 <img height=100 src='https://github.com/user-attachments/assets/292b8896-adfb-4ddc-8e65-0b855d21b829' />
 
