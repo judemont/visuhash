@@ -5,7 +5,16 @@ Visuhash uses sha256 to create a unique visual representation of a text or file.
 ---
 
 **VisuHash of an old powerpoint from a school presentation.**
-![Screenshot From 2025-06-14 16-56-56](https://github.com/user-attachments/assets/8393f109-7899-4fad-9e5d-da5d2c44f491)
+
+<img height=100 src='https://github.com/user-attachments/assets/8393f109-7899-4fad-9e5d-da5d2c44f491' />
+
+**VisuHash of my root password.**
+
+<img height=100 src='https://github.com/user-attachments/assets/155ff20f-2ba1-4bce-a00a-e97be3051b94' />
+
+**VisuHash of my ADN.**
+
+<img height=100 src='https://github.com/user-attachments/assets/d5d34bbb-d32e-4a3b-bede-0e2519414724' />
 
 ## Usage :
 ```
