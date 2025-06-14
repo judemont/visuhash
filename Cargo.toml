@@ -1,0 +1,8 @@
+[package]
+name = "visuhashing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha2 = "0.11.0-rc.0"
+image = "0.25.6"
