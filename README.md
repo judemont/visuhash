@@ -18,6 +18,8 @@ Visuhash uses sha256 to create a unique visual representation of a text or file.
 
 ## Usage :
 ```
+visuhash [TEXT]
+
 Options :
     -f, --file      set input file path
     -o --output     set output image file path/name
